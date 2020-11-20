@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #545454;
+    background-color: antiquewhite;
+}
+
+.wrap{
+    width: 25%;
+    margin: 50px auto;
+    padding: 150px;
+}
+
+.heading{
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+}
+
+form{
+    overflow: hidden;
+}
+
+input[type="text"],
+[type="password"] {
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    background-color:#3d3938;
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+input[type="submit"]:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+
+a{
+    color: #222222;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 画像表示 */
+.display_img img{
+    width: 100%;
+}
+
+/* エラーメッセージ */
+.error_msg{
+    font-size: 15px;
+    color: red;
+}

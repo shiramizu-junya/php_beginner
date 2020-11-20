@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* コンテンツ横幅 */
+.site_width{
+    width: 980px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+    overflow: hidden;
+}
+
+header.site_width{
+    margin-bottom: 0;
+}
+
+/* ロゴ */
+#logo{
+    width: 200px;
+    float: left;
+}
+
+/* バナー */
+#top-baner{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+/* ナビゲーションバー */
+#top_nav{
+    float: right;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+#top_nav ul{
+    list-style: none;
+    padding: 0;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#top_nav ul li {
+    float: left;
+}
+
+nav a{
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* コンテンツエリアのタイトル */
+section h1.title{
+    text-align: center;
+}
+
+/* ABOUT */
+.about_wrap {
+    overflow: hidden;
+}
+
+.about_img{
+    width: 480px;
+    height: 320px;
+    margin-right: 20px;
+    float: left;
+}
+
+.about_wrap p{
+    background-color: rgb(233, 225, 209);
+    width: 480px;
+    min-height: 320px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 3px solid #eee;
+    border-radius: 3px;
+    margin: 0;
+    float: left;
+}
+
+/* MENU */
+.group{
+    overflow: hidden;
+}
+
+.menu_wrap{
+    width: 320px;
+    height: 320px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 3px;
+    border: 3px solid #eee;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    background-color: rgb(233, 225, 209);
+}
+
+.menu_wrap:last-child{
+    margin-right: 0;
+}
+
+.menu{
+    width: 80%;
+    height: 256px;
+    border-radius: 160px;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* ACCESS */
+table{
+    background-color: rgb(233, 225, 209);
+    width: 50%;
+    height: 300px;
+    border: 3px solid #eee;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px;
+    margin-right: 2%;
+    float: left;
+}
+
+th,td{
+    padding: 5px 0;
+}
+
+/* マップ */
+.map{
+    width: 48%;
+    height: 300px;
+    float: left;
+}
+
+/* フッター */
+footer{
+    background-color: #333333;
+    font-size: 15px;
+    color: #f6f5f4;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #f6f5f5;
+}
